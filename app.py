@@ -110,20 +110,6 @@ def merge_entities_by_offsets(entities, full_text):
     return merged
 
 
-"""""
-@app.route('/predict', methods=['POST'])
-def predict_api():
-    if request.method == 'POST':
-        data = io.BytesIO(request.files.get('resume').read())
-        resume_text = preprocess_data(data)
-        entities = predict(model, TOKENIZER, idx2tag,
-                           DEVICE, resume_text, MAX_LEN)
-        return jsonify({'entities': entities})
-
-
-if __name__ == '__main__':
-    app.run()
-"""""
 @app.route('/predict', methods=['POST'])
 def predict_api():
     if request.method == 'POST':
@@ -144,7 +130,7 @@ def predict_api():
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(formatted, f, ensure_ascii=False, indent=4)
 
-        print(f"✅ 提取结果已保存到 {output_path}")
+        print(f"✅ result save to  {output_path}")
 
         # 5) 返回清晰的 JSON 响应（包含文件路径 + 合并后实体）
         return jsonify({
