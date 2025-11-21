@@ -6,7 +6,7 @@ import json
 import datetime
 from transformers import BertTokenizerFast, BertForTokenClassification
 from flask import Flask, jsonify, request
-from server.utils import preprocess_data, predict, idx2tag
+from NER.server.utils import preprocess_data, predict, idx2tag
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False

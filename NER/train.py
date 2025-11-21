@@ -10,7 +10,7 @@ from utils import trim_entity_spans, convert_goldparse, ResumeDataset, tag2idx, 
 
 parser = argparse.ArgumentParser(description='Train Bert-NER')
 args = parser.parse_args().__dict__
-output_path = "./"
+output_path = "../"
 
 # Hyperparameters & Config
 MAX_LEN = 500
