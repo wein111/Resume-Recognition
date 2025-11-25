@@ -153,8 +153,6 @@ def clean_locations(text: str) -> str:
 
     return " | ".join(dict.fromkeys(output))
 
-
-
 def process_locations(df: pd.DataFrame) -> pd.DataFrame:
     """
     Adds cleaned 'location_clean' column by removing newlines and extra spaces.
@@ -198,4 +196,3 @@ if __name__ == "__main__":
     print(df['location_clean'].head())
     df = pattern_matching(df)
     print(df[['skills_norm']].head())
-
