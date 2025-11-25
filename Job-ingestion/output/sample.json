@@ -1,0 +1,22 @@
+{
+  "job_id": "careercenter_am::12345",
+  "title_clean": "Senior Machine Learning Engineer",
+  "company_norm": "Acme",
+  "location": {
+      "city": "New York",
+      "country_iso": "US",
+      "is_remote": true
+  },
+  "employment_type": "full_time",
+  "skills_norm": ["python", "pytorch", "sql"],
+  "tags": {
+      "role": "ml_engineer",
+      "seniority": "senior",
+      "domain": "ml"
+  },
+  "description_clean": "We use PyTorch and SQL for ML pipelines...",
+  "why": {
+      "role": "Matched /machine learning engineer/ in title",
+      "seniority": "Found 'Senior' in title"
+  }
+}
