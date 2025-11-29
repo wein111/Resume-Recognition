@@ -1,0 +1,252 @@
+{
+  "skills_raw": [
+    "Data Structure and Algorithm",
+    "Artificial Intelligence",
+    "Deep Learning for Computer Vision",
+    "Operating   system",
+    "Programming Language",
+    "Database Management System",
+    "Discrete Math",
+    "Statistics",
+    "Linear Programming",
+    "SKILLS",
+    "Python",
+    "Java Script",
+    "CSS",
+    "SQL",
+    "HTML",
+    "Verilog",
+    "Visual Studio",
+    "GCP",
+    "Tableau",
+    "IntelliJ IDEA",
+    "pgAdmin",
+    "Spyder",
+    "Tensorflow",
+    "Colab",
+    "MATLAB",
+    "CRUD",
+    "publishing",
+    "React",
+    "Fire",
+    "REST",
+    "Ax",
+    "Node",
+    "Gmail   OAuth2",
+    "Vue.js",
+    "JavaScript",
+    "MySQL",
+    "UI"
+  ],
+  "skills_normalized": [
+    {
+      "canonical": "algorithms",
+      "from": "Data Structure and Algorithm",
+      "confidence": 0.9473684210526316,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "e-learning",
+      "from": "Deep Learning for Computer Vision",
+      "confidence": 0.8888888888888888,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "operating systems",
+      "from": "Operating   system",
+      "confidence": 0.9696969696969697,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "database",
+      "from": "Database Management System",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "statistics",
+      "from": "Statistics",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "java (computer programming)",
+      "from": "Java Script",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "css",
+      "from": "CSS",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "sql",
+      "from": "SQL",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "matlab",
+      "from": "MATLAB",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "javascript",
+      "from": "JavaScript",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "mysql",
+      "from": "MySQL",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    }
+  ],
+  "audit": [
+    {
+      "from": "Artificial Intelligence",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Programming Language",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Discrete Math",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Linear Programming",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "SKILLS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Python",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Verilog",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Visual Studio",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "GCP",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Tableau",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "IntelliJ IDEA",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "pgAdmin",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Spyder",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Tensorflow",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Colab",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "CRUD",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "publishing",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Fire",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "REST",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Ax",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Node",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Gmail   OAuth2",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Vue.js",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "UI",
+      "decision": "reject",
+      "reason": "low_conf"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+[
+    {
+        "label": "Name",
+        "text": "Ayush Srivastava",
+        "start": 0,
+        "end": 16
+    },
+    {
+        "label": "Designation",
+        "text": "Web Developer",
+        "start": 19,
+        "end": 32
+    },
+    {
+        "label": "Designation",
+        "text": "Final year",
+        "start": 35,
+        "end": 45
+    },
+    {
+        "label": "Degree",
+        "text": "B.Tech",
+        "start": 47,
+        "end": 53
+    },
+    {
+        "label": "Designation",
+        "text": "student",
+        "start": 55,
+        "end": 62
+    },
+    {
+        "label": "Years of Experience",
+        "text": "3+​ years of",
+        "start": 69,
+        "end": 81
+    },
+    {
+        "label": "Skills",
+        "text": "web",
+        "start": 106,
+        "end": 109
+    },
+    {
+        "label": "College Name",
+        "text": "JSS Boys Hostel,",
+        "start": 201,
+        "end": 217
+    },
+    {
+        "label": "Location",
+        "text": "C",
+        "start": 218,
+        "end": 219
+    },
+    {
+        "label": "College Name",
+        "text": "Block",
+        "start": 220,
+        "end": 225
+    },
+    {
+        "label": "Location",
+        "text": "Sector - 62,",
+        "start": 228,
+        "end": 240
+    },
+    {
+        "label": "Location",
+        "text": "Noida.  (+91) 9599025432",
+        "start": 241,
+        "end": 265
+    },
+    {
+        "label": "Name",
+        "text": "srivas",
+        "start": 267,
+        "end": 273
+    },
+    {
+        "label": "Location",
+        "text": "tavs61",
+        "start": 273,
+        "end": 279
+    },
+    {
+        "label": "Companies worked at",
+        "text": "linked",
+        "start": 291,
+        "end": 297
+    },
+    {
+        "label": "Years of Experience",
+        "text": "1mg",
+        "start": 375,
+        "end": 378
+    },
+    {
+        "label": "Designation",
+        "text": "—",
+        "start": 381,
+        "end": 382
+    },
+    {
+        "label": "Designation",
+        "text": "Software Engineer",
+        "start": 384,
+        "end": 401
+    },
+    {
+        "label": "Designation",
+        "text": "Intern",
+        "start": 402,
+        "end": 408
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2020",
+        "start": 415,
+        "end": 419
+    },
+    {
+        "label": "Graduation Year",
+        "text": "Present",
+        "start": 422,
+        "end": 429
+    },
+    {
+        "label": "Skills",
+        "text": "SKILLS",
+        "start": 432,
+        "end": 438
+    },
+    {
+        "label": "Skills",
+        "text": "Frontend:",
+        "start": 441,
+        "end": 450
+    },
+    {
+        "label": "Skills",
+        "text": "ReactJS,",
+        "start": 453,
+        "end": 461
+    },
+    {
+        "label": "Skills",
+        "text": "Gatsby,",
+        "start": 462,
+        "end": 469
+    },
+    {
+        "label": "Skills",
+        "text": "jQuery,",
+        "start": 470,
+        "end": 477
+    },
+    {
+        "label": "Skills",
+        "text": "JavaScript,",
+        "start": 478,
+        "end": 489
+    },
+    {
+        "label": "Skills",
+        "text": "HTML,",
+        "start": 492,
+        "end": 497
+    },
+    {
+        "label": "Skills",
+        "text": "CSS, Materialize, Bootstrap,   Avanti Learning",
+        "start": 498,
+        "end": 544
+    },
+    {
+        "label": "Designation",
+        "text": "—",
+        "start": 555,
+        "end": 556
+    },
+    {
+        "label": "Designation",
+        "text": "Data Visualization Analyst",
+        "start": 558,
+        "end": 584
+    },
+    {
+        "label": "College Name",
+        "text": "Bulma",
+        "start": 587,
+        "end": 592
+    },
+    {
+        "label": "Designation",
+        "text": "Jul",
+        "start": 595,
+        "end": 598
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2019",
+        "start": 599,
+        "end": 603
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2019",
+        "start": 610,
+        "end": 614
+    },
+    {
+        "label": "Skills",
+        "text": "Responsibilities",
+        "start": 617,
+        "end": 633
+    },
+    {
+        "label": "Skills",
+        "text": "Task",
+        "start": 636,
+        "end": 640
+    },
+    {
+        "label": "Skills",
+        "text": "Report",
+        "start": 645,
+        "end": 651
+    },
+    {
+        "label": "Skills",
+        "text": "Backend:",
+        "start": 669,
+        "end": 677
+    },
+    {
+        "label": "Skills",
+        "text": "Flask",
+        "start": 679,
+        "end": 684
+    },
+    {
+        "label": "Skills",
+        "text": "Data Visualization:",
+        "start": 687,
+        "end": 706
+    },
+    {
+        "label": "Skills",
+        "text": "D3, Matplotlib",
+        "start": 708,
+        "end": 722
+    },
+    {
+        "label": "Skills",
+        "text": "Task",
+        "start": 725,
+        "end": 729
+    },
+    {
+        "label": "Skills",
+        "text": "student",
+        "start": 743,
+        "end": 750
+    },
+    {
+        "label": "Skills",
+        "text": "Invite",
+        "start": 787,
+        "end": 793
+    },
+    {
+        "label": "Skills",
+        "text": "UI/U",
+        "start": 799,
+        "end": 803
+    },
+    {
+        "label": "Designation",
+        "text": ":",
+        "start": 842,
+        "end": 843
+    },
+    {
+        "label": "Companies worked at",
+        "text": "Panda",
+        "start": 845,
+        "end": 850
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2018",
+        "start": 858,
+        "end": 862
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2018",
+        "start": 869,
+        "end": 873
+    },
+    {
+        "label": "Skills",
+        "text": "Ed",
+        "start": 977,
+        "end": 979
+    },
+    {
+        "label": "Designation",
+        "text": "Front-end Developer",
+        "start": 988,
+        "end": 1007
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2017",
+        "start": 1014,
+        "end": 1018
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2018",
+        "start": 1025,
+        "end": 1029
+    },
+    {
+        "label": "Skills",
+        "text": "Cloud",
+        "start": 1075,
+        "end": 1080
+    },
+    {
+        "label": "Companies worked at",
+        "text": "Google",
+        "start": 1089,
+        "end": 1095
+    },
+    {
+        "label": "Skills",
+        "text": "Cloud",
+        "start": 1096,
+        "end": 1101
+    },
+    {
+        "label": "Skills",
+        "text": "Platform",
+        "start": 1102,
+        "end": 1110
+    },
+    {
+        "label": "Skills",
+        "text": "Programming Languages:",
+        "start": 1113,
+        "end": 1135
+    },
+    {
+        "label": "Skills",
+        "text": "C++, C,   Python   Database:",
+        "start": 1137,
+        "end": 1165
+    },
+    {
+        "label": "Skills",
+        "text": "Oracle SQL   Data Structures and Algorithms in   C++",
+        "start": 1167,
+        "end": 1219
+    },
+    {
+        "label": "Skills",
+        "text": "Agile/Scrum and Design thinking",
+        "start": 1262,
+        "end": 1293
+    },
+    {
+        "label": "Degree",
+        "text": "EDUCATION",
+        "start": 1296,
+        "end": 1305
+    },
+    {
+        "label": "College Name",
+        "text": "JSSATE, ​Noida —",
+        "start": 1308,
+        "end": 1324
+    },
+    {
+        "label": "Degree",
+        "text": "B.Tech",
+        "start": 1326,
+        "end": 1332
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2016",
+        "start": 1335,
+        "end": 1339
+    },
+    {
+        "label": "Graduation Year",
+        "text": "Present",
+        "start": 1342,
+        "end": 1349
+    },
+    {
+        "label": "Skills",
+        "text": "- 74.20%",
+        "start": 1376,
+        "end": 1384
+    },
+    {
+        "label": "Skills",
+        "text": "Coursework included   ○",
+        "start": 1386,
+        "end": 1409
+    },
+    {
+        "label": "Skills",
+        "text": "Algorithms  ○ Data Structures  ○",
+        "start": 1411,
+        "end": 1443
+    },
+    {
+        "label": "Skills",
+        "text": "SQL based",
+        "start": 1445,
+        "end": 1454
+    },
+    {
+        "label": "Skills",
+        "text": "DBMS   ○",
+        "start": 1455,
+        "end": 1463
+    },
+    {
+        "label": "Skills",
+        "text": "Turing Machines   ○ OS Concepts",
+        "start": 1465,
+        "end": 1496
+    },
+    {
+        "label": "Skills",
+        "text": "hands-on workshops on",
+        "start": 1512,
+        "end": 1533
+    },
+    {
+        "label": "Skills",
+        "text": "○",
+        "start": 1536,
+        "end": 1537
+    },
+    {
+        "label": "Skills",
+        "text": "C/C++ Programming   ○",
+        "start": 1539,
+        "end": 1560
+    },
+    {
+        "label": "Skills",
+        "text": "Designing (",
+        "start": 1561,
+        "end": 1572
+    },
+    {
+        "label": "Skills",
+        "text": "UI/UX & Photoshop)  ○",
+        "start": 1572,
+        "end": 1593
+    },
+    {
+        "label": "Skills",
+        "text": "Web Development (",
+        "start": 1594,
+        "end": 1611
+    },
+    {
+        "label": "Skills",
+        "text": "HTML & CSS)",
+        "start": 1611,
+        "end": 1622
+    },
+    {
+        "label": "Skills",
+        "text": "approaches",
+        "start": 1625,
+        "end": 1635
+    },
+    {
+        "label": "Designation",
+        "text": "Special",
+        "start": 1653,
+        "end": 1660
+    },
+    {
+        "label": "College Name",
+        "text": "DevFest",
+        "start": 1674,
+        "end": 1681
+    },
+    {
+        "label": "Location",
+        "text": "No",
+        "start": 1684,
+        "end": 1686
+    },
+    {
+        "label": "College Name",
+        "text": "ida",
+        "start": 1686,
+        "end": 1689
+    },
+    {
+        "label": "Graduation Year",
+        "text": "18",
+        "start": 1691,
+        "end": 1693
+    },
+    {
+        "label": "Skills",
+        "text": "FitMo",
+        "start": 1699,
+        "end": 1704
+    },
+    {
+        "label": "Skills",
+        "text": "React-based",
+        "start": 1707,
+        "end": 1718
+    },
+    {
+        "label": "Skills",
+        "text": "native application",
+        "start": 1721,
+        "end": 1739
+    },
+    {
+        "label": "Skills",
+        "text": "Social",
+        "start": 1825,
+        "end": 1831
+    },
+    {
+        "label": "College Name",
+        "text": "ECell-IITK",
+        "start": 1853,
+        "end": 1863
+    },
+    {
+        "label": "Designation",
+        "text": "Second",
+        "start": 1866,
+        "end": 1872
+    },
+    {
+        "label": "Degree",
+        "text": "B",
+        "start": 1886,
+        "end": 1887
+    },
+    {
+        "label": "College Name",
+        "text": "ATTAC   NGO                Avanti",
+        "start": 1921,
+        "end": 1954
+    },
+    {
+        "label": "Designation",
+        "text": "Fellows",
+        "start": 1955,
+        "end": 1962
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2015",
+        "start": 1965,
+        "end": 1969
+    },
+    {
+        "label": "Graduation Year",
+        "text": "2016",
+        "start": 1972,
+        "end": 1976
+    },
+    {
+        "label": "Skills",
+        "text": "z",
+        "start": 1990,
+        "end": 1991
+    },
+    {
+        "label": "Years of Experience",
+        "text": "year",
+        "start": 2066,
+        "end": 2070
+    },
+    {
+        "label": "Degree",
+        "text": "engineering entrance",
+        "start": 2098,
+        "end": 2118
+    },
+    {
+        "label": "Skills",
+        "text": "Cleared JEE",
+        "start": 2137,
+        "end": 2148
+    },
+    {
+        "label": "Skills",
+        "text": "Mains   ○  ○",
+        "start": 2149,
+        "end": 2161
+    },
+    {
+        "label": "Skills",
+        "text": "97.90 (All India Percentile Score)   44,344 (CRL Rank)",
+        "start": 2163,
+        "end": 2217
+    },
+    {
+        "label": "Skills",
+        "text": "Cleared JEE",
+        "start": 2226,
+        "end": 2237
+    },
+    {
+        "label": "Skills",
+        "text": "Advanced   ○",
+        "start": 2238,
+        "end": 2250
+    }
+]

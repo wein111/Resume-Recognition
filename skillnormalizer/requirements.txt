@@ -1,0 +1,4 @@
+rapidfuzz
+pandas
+numpy
+pyyaml

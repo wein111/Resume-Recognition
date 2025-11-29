@@ -1,0 +1,258 @@
+{
+  "skills_raw": [
+    "web",
+    "Open",
+    "SKILLS",
+    "ReactJS",
+    "Gatsby",
+    "jQuery",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Materialize",
+    "Bootstrap",
+    "​Flask   Data Visualization",
+    "D3",
+    "Matplotlib",
+    "Invite",
+    "UI",
+    "UX",
+    "Ed",
+    "Cloud",
+    "Cloud Platform",
+    "SQL   Data Structures and Algorithms in",
+    "C++",
+    "Agile",
+    "Scrum and Design",
+    "20%",
+    "Coursework included   ○",
+    "Algorithms  ○ Data Structures  ○  SQL based DBMS   ○  Turing Machines   ○ OS Concepts",
+    "hands-on workshops on",
+    "C++ Programming   ○",
+    "Designing (",
+    "UX & Photoshop)  ○",
+    "Web Development (",
+    "HTML & CSS)   approaches",
+    "FitMo​ (",
+    "React-based   native application",
+    "Social Track",
+    "Plan",
+    "zonal test",
+    "Cleared JEE Mains   ○  ○  97.90 (All India Percentile Score)   44",
+    "344 (CRL Rank)",
+    "Cleared JEE Advanced   ○"
+  ],
+  "skills_normalized": [
+    {
+      "canonical": "javascript",
+      "from": "JavaScript",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "css",
+      "from": "CSS",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "create prototype of user experience solutions",
+      "from": "UX",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "sql",
+      "from": "SQL   Data Structures and Algorithms in",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "c++",
+      "from": "C++",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "operate relational database management system",
+      "from": "Algorithms  ○ Data Structures  ○  SQL based DBMS   ○  Turing Machines   ○ OS Concepts",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "plan",
+      "from": "Plan",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    }
+  ],
+  "audit": [
+    {
+      "from": "web",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Open",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "SKILLS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "ReactJS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Gatsby",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "jQuery",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Materialize",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Bootstrap",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "​Flask   Data Visualization",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "D3",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Matplotlib",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Invite",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "UI",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Ed",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cloud",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cloud Platform",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Agile",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Scrum and Design",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "20%",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Coursework included   ○",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "hands-on workshops on",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Designing (",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Web Development (",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML & CSS)   approaches",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "FitMo​ (",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React-based   native application",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Social Track",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "zonal test",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cleared JEE Mains   ○  ○  97.90 (All India Percentile Score)   44",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "344 (CRL Rank)",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cleared JEE Advanced   ○",
+      "decision": "reject",
+      "reason": "low_conf"
+    }
+  ]
+}

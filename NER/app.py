@@ -16,7 +16,7 @@ NUM_LABELS = 21
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL_PATH = 'bert-base-uncased'
 STATE_DICT = torch.load("model-state.bin", map_location=DEVICE)
-TOKENIZER = BertTokenizerFast("./vocab/vocab.txt", lowercase=True)
+TOKENIZER = BertTokenizerFast("NER/vocab/vocab.txt", lowercase=True)
 
 model = BertForTokenClassification.from_pretrained(
     'bert-base-uncased', state_dict=STATE_DICT['model_state_dict'], num_labels=NUM_LABELS)
