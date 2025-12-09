@@ -93,6 +93,15 @@
       "notes": ""
     }
   ],
+  "skills_canonical": [
+    "javascript",
+    "css",
+    "create prototype of user experience solutions",
+    "sql",
+    "c++",
+    "operate relational database management system",
+    "plan"
+  ],
   "audit": [
     {
       "from": "web",
