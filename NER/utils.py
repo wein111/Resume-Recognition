@@ -179,18 +179,17 @@ def process_resume(data, tokenizer, tag2idx, max_len, is_test=False):
 
     if not is_test:
         labels = data[1]['entities']
-        labels = sorted(labels, key=lambda x: x[0])  # ← 按起始位置排序，不要reverse
+        labels = sorted(labels, key=lambda x: x[0])
 
         previous_label = 'O'
         for off in tok['offset_mapping']:
-            label = get_label(off, labels, previous_label)  # ← 传入previous_label
+            label = get_label(off, labels, previous_label)
             curr_sent['orig_labels'].append(label)
-            curr_sent['labels'].append(tag2idx.get(label, tag2idx['O']))  # ← 使用.get()防止KeyError
+            curr_sent['labels'].append(tag2idx.get(label, tag2idx['O']))
             previous_label = label
 
-        # 对于padding部分，应该用-100而不是0
         padding_length = max_len - len(tok['input_ids'])
-        curr_sent['labels'] = curr_sent['labels'] + ([-100] * padding_length)  # ← 改为-100
+        curr_sent['labels'] = curr_sent['labels'] + ([-100] * padding_length)
     else:
         padding_length = max_len - len(tok['input_ids'])
         curr_sent['labels'] = [-100] * max_len
@@ -286,13 +285,12 @@ def flat_accuracy(valid_tags, pred_tags):
 
 
 def compute_label_weights(train_dataloader, num_labels, device):
-    """计算类别权重以处理不平衡问题"""
+    """Compute class weights to handle class imbalance."""
     print("Computing class weights...")
     all_labels = []
 
     for batch in train_dataloader:
         labels = batch['labels'].numpy().flatten()
-        # 过滤掉-100 (padding)
         labels = labels[labels != -100]
         all_labels.extend(labels.tolist())
 
@@ -303,15 +301,13 @@ def compute_label_weights(train_dataloader, num_labels, device):
         y=all_labels
     )
 
-    # 创建完整的权重向量
     class_weights = torch.ones(num_labels)
     for label, weight in zip(unique_labels, weights):
         class_weights[label] = weight
 
-    # 打印权重信息
     print("\nClass weights:")
     for i, w in enumerate(class_weights):
-        if w > 1:  # 只打印重要的权重
+        if w > 1:
             print(f"  {idx2tag[i]}: {w:.2f}")
 
     return class_weights.to(device)
@@ -354,16 +350,14 @@ def train_and_val_model(
             b_input_mask = batch['attention_mask'].to(device)
             b_labels = batch['labels'].to(device)
 
-            # ========== 修改: 不传入labels，使用自定义损失 ==========
             outputs = model(
                 b_input_ids,
                 token_type_ids=None,
                 attention_mask=b_input_mask,
-                # labels=b_labels,  # ← 注释掉
+                # labels=b_labels,
             )
 
-            # ========== 修改: 手动计算加权损失 ==========
-            logits = outputs.logits  # 或 outputs[0]
+            logits = outputs.logits
             loss = loss_fct(logits.view(-1, len(tag2idx)), b_labels.view(-1))
 
             # Backward pass
@@ -379,10 +373,10 @@ def train_and_val_model(
                     (b_input_ids != cls_tok)
                     & (b_input_ids != pad_tok)
                     & (b_input_ids != sep_tok)
-                    & (b_labels != -100)  # ← 新增: 过滤-100
+                    & (b_labels != -100)
             )
 
-            tr_logits = logits.cpu().detach().numpy()  # ← 改用logits
+            tr_logits = logits.cpu().detach().numpy()
             tr_label_ids = torch.masked_select(b_labels, (preds_mask == 1))
             preds_mask_np = preds_mask.cpu().detach().numpy()
             tr_batch_preds = np.argmax(tr_logits[preds_mask_np.squeeze()], axis=1)
@@ -436,7 +430,7 @@ def train_and_val_model(
                     token_type_ids=None,
                     attention_mask=b_input_mask
                 )
-                logits = outputs.logits  # 或 outputs[0]
+                logits = outputs.logits
 
 
                 tmp_eval_loss = loss_fct(logits.view(-1, len(tag2idx)), b_labels.view(-1))
@@ -445,7 +439,7 @@ def train_and_val_model(
                     (b_input_ids != cls_tok)
                     & (b_input_ids != pad_tok)
                     & (b_input_ids != sep_tok)
-                    & (b_labels != -100)  # ← 新增
+                    & (b_labels != -100)
             )
 
             logits = logits.cpu().detach().numpy()
@@ -472,7 +466,7 @@ def train_and_val_model(
             val_batch_labels_flat = label_ids[preds_mask]
             tmp_eval_accuracy = flat_accuracy(val_batch_labels_flat, val_batch_preds_flat)
 
-            eval_loss += tmp_eval_loss.item()  # ← 改为.item()
+            eval_loss += tmp_eval_loss.item()
             eval_accuracy += tmp_eval_accuracy
             nb_eval_examples += b_input_ids.size(0)
             nb_eval_steps += 1
