@@ -105,7 +105,7 @@ def predict(model, tokenizer, idx2tag, device, test_resume, max_len):
             attention_mask=input_mask,
         )
 
-    logits = outputs.logits  # 直接取 logits
+    logits = outputs.logits
     logits = logits.cpu().detach().numpy()
     label_ids = np.argmax(logits, axis=2)
 
