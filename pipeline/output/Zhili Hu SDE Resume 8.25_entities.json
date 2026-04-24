@@ -1,0 +1,278 @@
+[
+  {
+    "label": "Name",
+    "start": 0,
+    "end": 8,
+    "text": "Zhili Hu"
+  },
+  {
+    "label": "Designation",
+    "start": 11,
+    "end": 16,
+    "text": "Email"
+  },
+  {
+    "label": "Companies worked at",
+    "start": 18,
+    "end": 20,
+    "text": "Hu"
+  },
+  {
+    "label": "Location",
+    "start": 20,
+    "end": 29,
+    "text": "zhili2019"
+  },
+  {
+    "label": "Companies worked at",
+    "start": 30,
+    "end": 41,
+    "text": "outlook.com"
+  },
+  {
+    "label": "Designation",
+    "start": 44,
+    "end": 49,
+    "text": "Phone"
+  },
+  {
+    "label": "Companies worked at",
+    "start": 76,
+    "end": 78,
+    "text": "gi"
+  },
+  {
+    "label": "Location",
+    "start": 78,
+    "end": 80,
+    "text": "th"
+  },
+  {
+    "label": "Companies worked at",
+    "start": 108,
+    "end": 116,
+    "text": "linkedin"
+  },
+  {
+    "label": "College Name",
+    "start": 176,
+    "end": 209,
+    "text": "University of Southern California"
+  },
+  {
+    "label": "Location",
+    "start": 329,
+    "end": 332,
+    "text": "Los"
+  },
+  {
+    "label": "College Name",
+    "start": 333,
+    "end": 340,
+    "text": "Angeles"
+  },
+  {
+    "label": "Degree",
+    "start": 349,
+    "end": 386,
+    "text": "Master of Science in Computer Science"
+  },
+  {
+    "label": "Degree",
+    "start": 389,
+    "end": 392,
+    "text": "GPA"
+  },
+  {
+    "label": "Years of Experience",
+    "start": 393,
+    "end": 403,
+    "text": "3.34 / 4.0"
+  },
+  {
+    "label": "Graduation Year",
+    "start": 489,
+    "end": 503,
+    "text": "2024 - May.202"
+  },
+  {
+    "label": "College Name",
+    "start": 506,
+    "end": 675,
+    "text": "Pennsylvania State University                                                                                                                              State College,"
+  },
+  {
+    "label": "Degree",
+    "start": 681,
+    "end": 741,
+    "text": "Bachelor of Science in Computer Science, (Minor) Mathematics"
+  },
+  {
+    "label": "Degree",
+    "start": 744,
+    "end": 747,
+    "text": "GPA"
+  },
+  {
+    "label": "Years of Experience",
+    "start": 748,
+    "end": 757,
+    "text": "3.51/ 4.0"
+  },
+  {
+    "label": "Graduation Year",
+    "start": 805,
+    "end": 809,
+    "text": "2020"
+  },
+  {
+    "label": "Skills",
+    "start": 957,
+    "end": 1052,
+    "text": "Programming Language, Database Management System, Discrete Math, Statistics, Linear Programming"
+  },
+  {
+    "label": "Skills",
+    "start": 1055,
+    "end": 1061,
+    "text": "SKILLS"
+  },
+  {
+    "label": "Skills",
+    "start": 1112,
+    "end": 1134,
+    "text": "Programming Languages:"
+  },
+  {
+    "label": "Skills",
+    "start": 1135,
+    "end": 1158,
+    "text": "Python, C, Java Script,"
+  },
+  {
+    "label": "Skills",
+    "start": 1159,
+    "end": 1198,
+    "text": "CSS, SQL, HTML, R, Verilog  Development"
+  },
+  {
+    "label": "Skills",
+    "start": 1199,
+    "end": 1205,
+    "text": "Tools:"
+  },
+  {
+    "label": "Skills",
+    "start": 1206,
+    "end": 1292,
+    "text": "Visual Studio, GCP, Tableau, IntelliJ IDEA, pgAdmin, Spyder, Tensorflow, Colab, MATLAB"
+  },
+  {
+    "label": "Designation",
+    "start": 1321,
+    "end": 1328,
+    "text": "Helping"
+  },
+  {
+    "label": "Designation",
+    "start": 1348,
+    "end": 1377,
+    "text": "Software Development Engineer"
+  },
+  {
+    "label": "Designation",
+    "start": 1378,
+    "end": 1388,
+    "text": "Internship"
+  },
+  {
+    "label": "Skills",
+    "start": 1467,
+    "end": 1469,
+    "text": "CR"
+  },
+  {
+    "label": "Skills",
+    "start": 1521,
+    "end": 1526,
+    "text": "React"
+  },
+  {
+    "label": "Skills",
+    "start": 1539,
+    "end": 1544,
+    "text": "React"
+  },
+  {
+    "label": "Graduation Year",
+    "start": 1665,
+    "end": 1668,
+    "text": "202"
+  },
+  {
+    "label": "Skills",
+    "start": 1771,
+    "end": 1775,
+    "text": "Node"
+  },
+  {
+    "label": "Skills",
+    "start": 1916,
+    "end": 1921,
+    "text": "react"
+  },
+  {
+    "label": "College Name",
+    "start": 2024,
+    "end": 2041,
+    "text": "Malik Yusef Jones"
+  },
+  {
+    "label": "Designation",
+    "start": 2045,
+    "end": 2046,
+    "text": "."
+  },
+  {
+    "label": "Designation",
+    "start": 2048,
+    "end": 2088,
+    "text": "Software Development Engineer Internship"
+  },
+  {
+    "label": "Graduation Year",
+    "start": 2095,
+    "end": 2098,
+    "text": "202"
+  },
+  {
+    "label": "Skills",
+    "start": 2177,
+    "end": 2181,
+    "text": "HTML"
+  },
+  {
+    "label": "Skills",
+    "start": 2184,
+    "end": 2186,
+    "text": "Vu"
+  },
+  {
+    "label": "Skills",
+    "start": 2477,
+    "end": 2611,
+    "text": "JavaScript to enhance responsiveness and user engagement.    Optimized the login interface design for improved clarity and efficiency"
+  },
+  {
+    "label": "College Name",
+    "start": 2672,
+    "end": 2701,
+    "text": "Pennsylvania State University"
+  },
+  {
+    "label": "Designation",
+    "start": 2703,
+    "end": 2721,
+    "text": "Research Assistant"
+  }
+]

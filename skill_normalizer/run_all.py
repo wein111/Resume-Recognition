@@ -1,13 +1,15 @@
 import json, re, os
 from skill_normalizer.core import SkillNormalizer
 
-# ---------- Paths ----------
-BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-ENTITIES = os.path.join(BASE, "skill-normalizer\data", "entities.json")
-VOCAB = os.path.join(BASE, "skill-normalizer\skill_normalizer", "vocab.json")
-ALIAS = os.path.join(BASE, "skill-normalizer\skill_normalizer", "alias.json")
-OUT_DETAILED = os.path.join(BASE, "skill-normalizer\data", "normalized_detailed.json")
-OUT_SIMPLE   = os.path.join(BASE, "skill-normalizer\data", "normalized_for_task4.json")
+# ---------- Paths (repo root = parent of this package directory) ----------
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.abspath(os.path.join(_BASE_DIR, ".."))
+_SN = os.path.join(BASE, "skill_normalizer")
+ENTITIES = os.path.join(_SN, "data", "entities.json")
+VOCAB = os.path.join(_SN, "skill_normalizer", "vocab.json")
+ALIAS = os.path.join(_SN, "skill_normalizer", "alias.json")
+OUT_DETAILED = os.path.join(_SN, "data", "normalized_detailed.json")
+OUT_SIMPLE = os.path.join(_SN, "data", "normalized_for_task4.json")
 
 # ---------- Simple extractor ----------
 def quick_extract_skills(entities):

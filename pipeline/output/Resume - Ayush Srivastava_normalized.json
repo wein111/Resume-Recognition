@@ -1,0 +1,215 @@
+{
+  "pdf_name": "Resume - Ayush Srivastava.pdf",
+  "entity_summary": {
+    "College Name": 10,
+    "Companies worked at": 10,
+    "Degree": 8,
+    "Designation": 11,
+    "Graduation Year": 11,
+    "Location": 5,
+    "Name": 1,
+    "Skills": 30,
+    "Years of Experience": 2
+  },
+  "skills_raw": [
+    "SKILLS",
+    "Front",
+    "React",
+    "Ga",
+    "Java",
+    "HTML",
+    "CS",
+    "Flask   Data Visualization: ​D3, Matplotlib",
+    "UI",
+    "Programming Languages:",
+    "C++, C,   Python   Database: ​Oracle SQL",
+    "C++",
+    "Agile/Sc",
+    "○",
+    "Algorithms  ○ Data Structures  ○  SQL based DBMS   ○  Turing Machines   ○",
+    "OS Concepts",
+    "○",
+    "C/C++ Programming",
+    "○ Designing (",
+    "UI/UX & Photoshop)",
+    "○ Web Development (",
+    "HTML & CSS)",
+    "Fit",
+    "React",
+    "●",
+    "Cleared JEE Mains   ○  ○  97.90 (All India Percentile Score)   44,344 (CRL Rank)",
+    "●",
+    "Cleared JEE",
+    "Advanced",
+    "○"
+  ],
+  "skills_normalized": [
+    {
+      "canonical": "java (computer programming)",
+      "from": "Java",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "sql",
+      "from": "C++, C,   Python   Database: ​Oracle SQL",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "c++",
+      "from": "C++",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "operate relational database management system",
+      "from": "Algorithms  ○ Data Structures  ○  SQL based DBMS   ○  Turing Machines   ○",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "create prototype of user experience solutions",
+      "from": "UI/UX & Photoshop)",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    }
+  ],
+  "skills_canonical": [
+    "java (computer programming)",
+    "sql",
+    "c++",
+    "operate relational database management system",
+    "create prototype of user experience solutions"
+  ],
+  "audit": [
+    {
+      "from": "SKILLS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Front",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Ga",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "CS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Flask   Data Visualization: ​D3, Matplotlib",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "UI",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Programming Languages:",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Agile/Sc",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "○",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "OS Concepts",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "○",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "○ Designing (",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "○ Web Development (",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML & CSS)",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Fit",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "●",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cleared JEE Mains   ○  ○  97.90 (All India Percentile Score)   44,344 (CRL Rank)",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "●",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Cleared JEE",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Advanced",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "○",
+      "decision": "reject",
+      "reason": "low_conf"
+    }
+  ],
+  "debug_files": {
+    "entities": "Resume - Ayush Srivastava_entities.json"
+  }
+}

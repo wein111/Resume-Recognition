@@ -1,0 +1,127 @@
+{
+  "pdf_name": "Zhili Hu SDE Resume 8.25.pdf",
+  "entity_summary": {
+    "College Name": 5,
+    "Companies worked at": 4,
+    "Degree": 4,
+    "Designation": 8,
+    "Graduation Year": 4,
+    "Location": 3,
+    "Name": 1,
+    "Skills": 15,
+    "Years of Experience": 2
+  },
+  "skills_raw": [
+    "Programming Language, Database Management System, Discrete Math, Statistics, Linear Programming",
+    "SKILLS",
+    "Programming Languages:",
+    "Python, C, Java Script,",
+    "CSS, SQL, HTML, R, Verilog  Development",
+    "Tools:",
+    "Visual Studio, GCP, Tableau, IntelliJ IDEA, pgAdmin, Spyder, Tensorflow, Colab, MATLAB",
+    "CR",
+    "React",
+    "React",
+    "Node",
+    "react",
+    "HTML",
+    "Vu",
+    "JavaScript to enhance responsiveness and user engagement.    Optimized the login interface design for improved clarity and efficiency"
+  ],
+  "skills_normalized": [
+    {
+      "canonical": "database",
+      "from": "Programming Language, Database Management System, Discrete Math, Statistics, Linear Programming",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "java (computer programming)",
+      "from": "Python, C, Java Script,",
+      "confidence": 0.98,
+      "method": "alias",
+      "notes": ""
+    },
+    {
+      "canonical": "matlab",
+      "from": "Visual Studio, GCP, Tableau, IntelliJ IDEA, pgAdmin, Spyder, Tensorflow, Colab, MATLAB",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    },
+    {
+      "canonical": "javascript",
+      "from": "JavaScript to enhance responsiveness and user engagement.    Optimized the login interface design for improved clarity and efficiency",
+      "confidence": 1.0,
+      "method": "fuzzy",
+      "notes": ""
+    }
+  ],
+  "skills_canonical": [
+    "database",
+    "java (computer programming)",
+    "matlab",
+    "javascript"
+  ],
+  "audit": [
+    {
+      "from": "SKILLS",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Programming Languages:",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "CSS, SQL, HTML, R, Verilog  Development",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Tools:",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "CR",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "React",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Node",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "react",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "HTML",
+      "decision": "reject",
+      "reason": "low_conf"
+    },
+    {
+      "from": "Vu",
+      "decision": "reject",
+      "reason": "low_conf"
+    }
+  ],
+  "debug_files": {
+    "entities": "Zhili Hu SDE Resume 8.25_entities.json"
+  }
+}

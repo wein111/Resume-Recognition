@@ -60,42 +60,6 @@
     ]
   },
   {
-    "company_norm": "\"click\" Web Design",
-    "title_clean": "Web Developer/ Programmer",
-    "location_clean": "Yerevan, Armenia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
-    ]
-  },
-  {
-    "company_norm": "Tops Bi",
-    "title_clean": "Java/web-programmer",
-    "location_clean": "Moscow, Russia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
-    ]
-  },
-  {
-    "company_norm": "Tops Bi",
-    "title_clean": "Java-programmer",
-    "location_clean": "Moscow, Russia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
-    ]
-  },
-  {
     "company_norm": "Verisoft Emirates",
     "title_clean": "Programmer",
     "location_clean": "Sharjah, United Arab Emirates",
@@ -120,42 +84,6 @@
     ]
   },
   {
-    "company_norm": "Odyssee Productions",
-    "title_clean": "Web Programmer",
-    "location_clean": "Yerevan, Armenia",
-    "skills_norm": [
-      "javascript"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "javascript"
-    ]
-  },
-  {
-    "company_norm": "Cit",
-    "title_clean": "Web Designer/ Developer",
-    "location_clean": "Yerevan, Armenia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
-    ]
-  },
-  {
-    "company_norm": "Project Harmony - Armenia",
-    "title_clean": "Web Designer/ Developer",
-    "location_clean": "Yerevan, Armenia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
-    ]
-  },
-  {
     "company_norm": "Synergy International Systems - Armenia",
     "title_clean": "Software Developer",
     "location_clean": "Yerevan, Armenia",
@@ -165,18 +93,6 @@
     "score": 1,
     "matched_skills": [
       "sql"
-    ]
-  },
-  {
-    "company_norm": "French University Of Armenia",
-    "title_clean": "System Administrator, Microsoft Web Developer, Microsoft Office",
-    "location_clean": "Yerevan, Armenia",
-    "skills_norm": [
-      "css"
-    ],
-    "score": 1,
-    "matched_skills": [
-      "css"
     ]
   },
   {
@@ -204,39 +120,123 @@
     ]
   },
   {
-    "company_norm": "\"tire\"",
-    "title_clean": "Web Programmer & Designer",
+    "company_norm": "Lycos Europe",
+    "title_clean": "Database Architect",
     "location_clean": "Yerevan, Armenia",
     "skills_norm": [
-      "javascript"
+      "sql"
     ],
     "score": 1,
     "matched_skills": [
-      "javascript"
+      "sql"
     ]
   },
   {
     "company_norm": "Lycos Europe",
-    "title_clean": "Flash Active Scripting Programmer",
+    "title_clean": "Advanced Java Developer",
     "location_clean": "Yerevan, Armenia",
     "skills_norm": [
-      "css"
+      "sql"
     ],
     "score": 1,
     "matched_skills": [
-      "css"
+      "sql"
     ]
   },
   {
     "company_norm": "Lycos Europe",
-    "title_clean": "Dhtml And Javascript Programmer",
+    "title_clean": "System Architect",
     "location_clean": "Yerevan, Armenia",
     "skills_norm": [
-      "css"
+      "sql"
     ],
     "score": 1,
     "matched_skills": [
-      "css"
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Boomerang Software",
+    "title_clean": "Programmer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Aspo-it",
+    "title_clean": "Java Programmer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Armentel Jv Cjsc",
+    "title_clean": "Oracle Database Administrator",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Aspo-it",
+    "title_clean": "Java Programmer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Sada Systems",
+    "title_clean": "Web Developer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Armenian Card",
+    "title_clean": "DB Programmer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
+    ]
+  },
+  {
+    "company_norm": "Accept Employment Agency",
+    "title_clean": "Programmer",
+    "location_clean": "Yerevan, Armenia",
+    "skills_norm": [
+      "sql"
+    ],
+    "score": 1,
+    "matched_skills": [
+      "sql"
     ]
   }
 ]

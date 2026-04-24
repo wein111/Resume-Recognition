@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import re
 import json
@@ -5,12 +6,17 @@ from typing import Optional, Dict, List
 import spacy
 import pycountry
 
+_JOB_DIR = os.path.dirname(os.path.abspath(__file__))
+_JOB_DATA = os.path.join(_JOB_DIR, "data")
+_REPO_ROOT = os.path.dirname(_JOB_DIR)
+
+
 def clean_csv():
-    df = pd.read_csv("data/online-job-postings.csv")
+    df = pd.read_csv(os.path.join(_JOB_DATA, "online-job-postings.csv"))
     print(f"Total job postings: {len(df)}")
     df = df[df["IT"] == 1]
     print(f"Total IT job postings: {len(df)}")
-    df.to_csv("data/it_job_postings.csv", index=False)
+    df.to_csv(os.path.join(_JOB_DATA, "it_job_postings.csv"), index=False)
     return df
 
 COMPANY_SUFFIX_PATTERNS = [
@@ -167,8 +173,15 @@ def pattern_matching(df: pd.DataFrame) -> pd.DataFrame:
     """
     Placeholder for pattern matching function to normalize skills.
     """
-    with open("data/normalized_for_task4.json") as f: 
-        CANON_SKILLS = sorted({s.lower() for s in json.load(f)["skills"]}) 
+    skills_path = os.path.join(
+        _REPO_ROOT, "skill_normalizer", "data", "normalized_for_task4.json"
+    )
+    with open(skills_path, "r", encoding="utf-8") as f:
+        CANON_SKILLS = sorted(
+            {s.lower() for s in json.load(f)["skills"]},
+            key=len,
+            reverse=True,
+        )
     
     def extract_and_normalize_skills(text): 
         if not isinstance(text, str): 
@@ -179,7 +192,7 @@ def pattern_matching(df: pd.DataFrame) -> pd.DataFrame:
             pattern = r'\b' + re.escape(skill) + r'\b' 
             if re.search(pattern, text): 
                 found.append(skill) 
-                return list(set(found)) 
+        return list(dict.fromkeys(found)) 
             
     df["skills_text"] = ( df[["JobDescription", "JobRequirment", "RequiredQual"]] .fillna("") .agg(" ".join, axis=1) ) 
     df["skills_norm"] = df["skills_text"].map(extract_and_normalize_skills)

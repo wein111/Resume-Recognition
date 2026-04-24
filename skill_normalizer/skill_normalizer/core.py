@@ -1,7 +1,46 @@
-from typing import List, Dict, Tuple
+from typing import Dict, List, Tuple
 import json
 from rapidfuzz import fuzz, process
 from .rules import preprocess
+
+# Short SDE terms map poorly onto the large ESCO-style vocab via fuzzy search.
+# Map common resume tokens to canonical keys that exist in ``vocab.json``.
+_MINI_TO_CANON = {
+    "react": "javascript framework",
+    "reactjs": "javascript framework",
+    "react.js": "javascript framework",
+    "vue": "javascript framework",
+    "vuejs": "javascript framework",
+    "vue.js": "javascript framework",
+    "vu": "javascript framework",
+    "angular": "javascript framework",
+    "angularjs": "javascript framework",
+    "svelte": "javascript framework",
+    "nextjs": "javascript framework",
+    "next.js": "javascript framework",
+    "nuxt": "javascript framework",
+    "nuxt.js": "javascript framework",
+    "html": "use markup languages",
+    "xhtml": "use markup languages",
+    "node": "javascript",
+    "nodejs": "javascript",
+    "node.js": "javascript",
+    "java script": "javascript",
+    "javascript": "javascript",
+    "js": "javascript",
+    "python": "python (computer programming)",
+    "java": "java (computer programming)",
+    "typescript": "typescript",
+    "ts": "typescript",
+    "c++": "c++",
+    "cpp": "c++",
+    "c#": "c#",
+    "csharp": "c#",
+    "php": "php",
+    "sql": "sql",
+    "css": "css",
+}
+
 
 class SkillNormalizer:
     def __init__(self, vocab_path: str, alias_path: str,
@@ -20,6 +59,9 @@ class SkillNormalizer:
 
         self.fuzzy_cutoff = fuzzy_cutoff
         self.min_conf = min_conf
+        self.mini_to_canon = {
+            k: v for k, v in _MINI_TO_CANON.items() if v in self.vocab
+        }
 
     def _alias_map(self, t: str):
         can = self.alias_rev.get(t)
@@ -40,6 +82,23 @@ class SkillNormalizer:
     def normalize_one(self, raw: str, context: Dict = None) -> Dict:
         best = {"canonical": None, "from": raw, "confidence": 0.0, "method": None, "notes": ""}
         for cand in preprocess(raw):
+            mini = self.mini_to_canon.get(cand)
+            if mini:
+                return {
+                    "canonical": mini,
+                    "from": raw,
+                    "confidence": 0.97,
+                    "method": "resume_tech_map",
+                    "notes": "",
+                }
+            if cand in self.vocab:
+                return {
+                    "canonical": cand,
+                    "from": raw,
+                    "confidence": 1.0,
+                    "method": "exact",
+                    "notes": "",
+                }
 
             hit = self._alias_map(cand)
             if hit:
@@ -49,7 +108,8 @@ class SkillNormalizer:
 
             hit = self._fuzzy_map(cand)
             if hit and hit["confidence"] > best["confidence"]:
-                best.update(hit); best["from"] = raw
+                best.update(hit)
+                best["from"] = raw
 
         if best["canonical"] == "c" and context:
             sec = (context.get("section") or "").lower()
